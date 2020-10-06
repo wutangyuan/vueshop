@@ -9,11 +9,14 @@ import { Message } from 'element-ui'
 import { Container } from 'element-ui'
 import { Header } from 'element-ui'
 import { Aside } from 'element-ui'
-import { Main } from 'element-ui'
+import { Main ,Option} from 'element-ui'
 import { Menu,Submenu,MenuItemGroup,MenuItem ,Breadcrumb,BreadcrumbItem,
-Card,Row,Col,Table,TableColumn,Switch,Tooltip,Pagination,PageHeader,Dialog
+Card,Row,Select,Col,Table,TableColumn,Switch,Tooltip,Pagination,PageHeader,Dialog,Popover,MessageBox
 } from 'element-ui'
 
+Vue.use(Option)
+Vue.use(Select)
+Vue.use(Popover)
 Vue.use(Dialog)
 Vue.use(Pagination)
 Vue.use(PageHeader)
@@ -43,6 +46,8 @@ Vue.use(Header)
 Vue.use(Aside)
 Vue.use(Main)
 Vue.use(Menu)
+
+Vue.prototype.MessageBox=MessageBox
 
 Vue.prototype.Message=Message;
 
