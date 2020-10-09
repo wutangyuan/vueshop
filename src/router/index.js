@@ -9,6 +9,9 @@ import '../assets/css/global.css'
 import Welcome from '../components/Welcome.vue' 
 
 import Users from '../components/user/Users.vue'
+import Roles from '../components/right/roles.vue'
+
+import Rights from '../components/right/Rights.vue'
 
 
 
@@ -37,6 +40,14 @@ const routes = [
       {
         path:'/users',
         component:Users
+      },
+      {
+        path:'/roles',
+        component:Roles
+      },
+      {
+        path:'/rights',
+        component:Rights
       }
     ]
 

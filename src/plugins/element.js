@@ -9,11 +9,12 @@ import { Message } from 'element-ui'
 import { Container } from 'element-ui'
 import { Header } from 'element-ui'
 import { Aside } from 'element-ui'
-import { Main ,Option} from 'element-ui'
+import { Main ,Option,Tag} from 'element-ui'
 import { Menu,Submenu,MenuItemGroup,MenuItem ,Breadcrumb,BreadcrumbItem,
 Card,Row,Select,Col,Table,TableColumn,Switch,Tooltip,Pagination,PageHeader,Dialog,Popover,MessageBox
 } from 'element-ui'
 
+Vue.use(Tag)
 Vue.use(Option)
 Vue.use(Select)
 Vue.use(Popover)
