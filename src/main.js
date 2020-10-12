@@ -12,7 +12,7 @@ Vue.config.productionTip = false
 //根路径
 //Axios.defaults.baseURL="https://www.liulongbin.top:8888/api/private/v1/";
 
-Axios.defaults.baseURL="http://localhost:5000/api/";
+Axios.defaults.baseURL="http://localhost:8081/api/";
 
 
 new Vue({
