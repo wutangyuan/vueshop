@@ -62,7 +62,7 @@ methods:{
         console.log(result.data);
         if(result.data.meta.status!=200)
         {
-          return this.Message.error('登陆失败');
+          return this.Message.error('登陆失败,账户名或者密码错误！');
         }
         else{
              this.Message.success('登陆成功');
