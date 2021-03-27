@@ -38,6 +38,10 @@ export default {
       ],
     };
   },
+  mounted()
+  {
+
+  },
   created() {
     this.getRightlist();
   },
